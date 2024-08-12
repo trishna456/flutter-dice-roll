@@ -7,7 +7,9 @@ const endAlignment = Alignment.bottomRight;
 
 class GradientContainer extends StatelessWidget {
   // GradientContainer({key}) : super(key: key); //forwarding the key to the super class key
-  const GradientContainer({super.key, required this.colors});
+  const GradientContainer(
+      {super.key,
+      required this.colors}); //constructor function; can also accept positional or named arguments, used to build reusable custom widgets
 
   final List<Color> colors;
 
