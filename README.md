@@ -1,16 +1,11 @@
-# first_app
+# Dice Roller App
 
-A new Flutter project.
+This Flutter app allows you to roll a dice at the press of a button. It utilizes Flutter best practices, including state management with `setState`, and incorporates both stateless and stateful widgets. The app features a gradient background and dynamically updates the dice image based on random dice rolls.
 
-## Getting Started
+## Key Features
 
-This project is a starting point for a Flutter application.
+- **Stateless and Stateful Widgets**: Efficiently manage UI and state.
+- **Random Dice Rolls**: Uses Dart's `math` package for generating random numbers.
+- **Responsive UI**: Gradient background and centered dice roller for a pleasant user experience.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Check out the code to explore more about Flutter's widget tree and state management!
