@@ -10,6 +10,7 @@ void main() {
     Color.fromARGB(255, 36, 5, 90),
     Color.fromARGB(255, 68, 17, 110)
   ];
+
   runApp(MaterialApp(
       home: Scaffold(
     body: GradientContainer(colors: colors),
